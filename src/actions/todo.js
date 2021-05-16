@@ -64,7 +64,7 @@ export const deleteTodo = (id) => async (dispatch) => {
   }
 };
 
-export const deleteAllTutorials = () => async (dispatch) => {
+export const deleteAllTodo = () => async (dispatch) => {
   try {
     const res = await ApiDataService.removeAll();
 
