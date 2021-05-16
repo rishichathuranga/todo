@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: '#F6F7F9';
+}
+
+.todo-app {
+  padding: 0;
+}
+
+.getShadow {
+  box-shadow: "2px 6px 8px #EBEBEB";
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container,
+.react-datepicker__input-container input {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+  border-color: "#E8E8EC";
+  margin: 1px;
+}
+
+.textBox {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+  border-color: "#E8E8EC";
+  margin: 1px;
+}
+
+.customBtn {
+  display: block;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+  border-color: "#E8E8EC";
+  margin: 1px;
+}
+
+.alert {
+  display: block;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+  border-color: "#E8E8EC";
+  margin: 1px;
+}
+
+.listItems {
+  display: block;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+  border-color: "#E8E8EC";
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.todoStatus {
+  color: '#ddd';
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5px;
+  text-align: center;
+}
+
+.dueItem{
+  background-color:coral;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+}
+
+.pendingItem{
+  background-color: silver;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+}
+
+.completedItem{
+  background-color:darkseagreen;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+}
+
+.todoTitle{
+  font-weight: bold;
+  text-transform: capitalize;
+  color: slategray;
+  padding-top: 1px;
+}
+
+.todoDate{
+  font-size: 12px;
+  font-weight: bold;
+  color: black;
+}
+
+.actives{
+  background-color:honeydew;
+}
+
+.actionBtnDiv {
+  padding: 10px;
+}
+
+.actionBtnSuccess {
+  background-color:darkseagreen;
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+}
+
+.actionBtnUpdate {
+  background-color:skyblue;
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+}
+
+.actionBtnDelete {
+  background-color:plum;
+  border-radius: 5px;
+  box-shadow: 2px 6px 8px #EBEBEB;
+  border: 1px;
+}
